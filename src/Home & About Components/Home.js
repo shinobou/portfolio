@@ -14,7 +14,7 @@ const Home = () => (
           </h1>
           <p className="lead mt-4 text-secondary">
             Hi, I'm <strong>Joyce Ann Fernandez</strong>. As a BSIT student at the University of Cabuyao, 
-            I am dedicated to turning ideas into innovative web applications. [cite: 1, 2]
+            I am dedicated to turning ideas into innovative web applications.
           </p>
           <div className="mt-5">
             <Button variant="dark" size="lg" className="me-3 shadow">Resume ↗</Button>
