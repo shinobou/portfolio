@@ -1,0 +1,31 @@
+/* Custom Professional Styles */
+.home-section {
+  min-height: 90vh;
+  background-color: #ffffff;
+  padding: 50px 0;
+}
+
+.profile-img {
+  max-width: 450px;
+  /* This creates the artistic cutout look */
+  mask-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Ink_splatter.svg/1200px-Ink_splatter.svg.png');
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  filter: drop-shadow(10px 10px 20px rgba(0,0,0,0.1));
+}
+
+.display-3 {
+  color: #1a1a1a;
+  line-height: 1.1;
+}
+
+.text-primary {
+  color: #6c63ff !important; /* A modern purple/blue */
+}
+
+/* Navbar professional touch */
+.navbar {
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+}
